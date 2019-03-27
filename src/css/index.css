@@ -8,9 +8,6 @@ body > footer .container-fluid .row {
     display: flex;
     align-items: center;
 }
-#jenkins-home-link > img {
-    display: none;
-}
 #header .logo:after {
     display: none;
 }
