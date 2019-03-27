@@ -1,0 +1,10 @@
+#footer:before {
+    content: 'Rua Santa Cruz, 2439 - Pelotas, RS';
+}
+#footer:after {
+    content: 'comercial@thrivedatascience.com';
+}
+#footer:before,
+#footer:after {
+    display: block;
+}
