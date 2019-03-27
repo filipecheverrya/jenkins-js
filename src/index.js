@@ -1,11 +1,2 @@
-import $ from 'jquery';
-
-const footer = $('body>footer'),
-    footerContainerRight = footer.find('.col-md-18');
-
-let footerContentRight = `
-<a href="https://thrivedatascience.com" title="Thrive Data Science" target="_blank" class="link-footer">
-    <img src="https://thrivedatascience.com/images/logo.png" alt="Thrive Data Science" />
-</a>`;
-
-footerContainerRight.innerHTML = footerContentRight
+var footerLogo = '<a href="https://thrivedatascience.com" alt="Thrive Data Science"><img src="https://thrivedatascience.com/images/logo.png" alt="Thrive Data Science" /></a>'
+document.querySelector('footer > body .col-md-18').innerHTML = footerLogo;
