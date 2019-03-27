@@ -8,8 +8,11 @@
 #footer:after {
     display: block;
     font-size: 14px;
-    color: #000;
+    color: #31393a;
     text-align: left;
+}
+body > footer {
+    background-color: #cccccc;
 }
 body > footer .container-fluid .row {
     display: flex;
@@ -21,13 +24,22 @@ body > footer .container-fluid .row {
 #jenkins-home-link {
     display: block;
     background: url('https://thrivedatascience.com/images/logo.png') center center no-repeat;
+    background-size: contain;
     width: 120px;
     height: 40px;
+}
+#header {
+    background-color: #cccccc;
 }
 #header .logo:after {
     content: 'Thrive Data Science';
     display: block;
     font-weight: 700;
-    color: #000;
+    color: #31393a;
     font-size: 25px;
+    right: 0;
+    left: 150px;
+}
+#header .login a:hover {
+    color: #31393a;
 }
