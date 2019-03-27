@@ -7,4 +7,27 @@
 #footer:before,
 #footer:after {
     display: block;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+body > footer .container-fluid .row {
+    display: flex;
+    align-items: center;
+}
+#jenkins-home-link > img {
+    display: none;
+}
+#jenkins-home-link {
+    display: block;
+    background: url('https://thrivedatascience.com/images/logo.png') center center no-repeat;
+    width: 120px;
+    height: 40px;
+}
+#header .logo:after {
+    content: 'Thrive Data Science';
+    display: block;
+    font-weight: 700;
+    color: #000;
+    font-size: 25px;
 }
