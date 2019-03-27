@@ -3,6 +3,7 @@ var footer_logo = '<a href="https://thrivedatascience.com" target="_blank" title
     contact_info = '<a href="mailto:comercial@thrivedatascience.com" title="Thrive Data Science" class="contact-lnk">comercial@thrivedatascience.com</a>'
 
 contact_info += '<a href="tel:+5553997039577" title="Thrive Data Science" class="contact-lnk">+55 53 9 9703 9577</a>'
+contact_info += '<span class="contact-lnk">Rua Santa Cruz, 2439 - Pelotas, RS</span>'
 
 function footerLogo() {
     document.querySelector('body>footer .page_generated').innerHTML = footer_logo;

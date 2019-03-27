@@ -14,7 +14,7 @@ body > footer .container-fluid .row {
 #header .logo:after {
     display: none;
 }
-.contact-lnk {
+#footer .contact-lnk {
     color: #31393a;
     font-weight: 600;
     font-size: 14px;
