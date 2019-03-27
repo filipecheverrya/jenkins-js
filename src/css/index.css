@@ -1,17 +1,7 @@
-#footer:before {
-    content: 'Rua Santa Cruz, 2439 - Pelotas, RS';
-}
-#footer:after {
-    content: 'comercial@thrivedatascience.com';
-}
-#footer:before,
-#footer:after {
-    display: block;
-    font-size: 14px;
-    color: #31393a;
-    text-align: left;
-}
 body > footer {
+    background-color: #cccccc;
+}
+#header {
     background-color: #cccccc;
 }
 body > footer .container-fluid .row {
@@ -21,25 +11,13 @@ body > footer .container-fluid .row {
 #jenkins-home-link > img {
     display: none;
 }
-#jenkins-home-link {
-    display: block;
-    background: url('https://thrivedatascience.com/images/logo.png') center center no-repeat;
-    background-size: contain;
-    width: 120px;
-    height: 40px;
-}
-#header {
-    background-color: #cccccc;
-}
 #header .logo:after {
-    content: 'Thrive Data Science';
-    display: block;
-    font-weight: 700;
-    color: #31393a;
-    font-size: 25px;
-    right: 0;
-    left: 150px;
+    display: none;
 }
-#header .login a:hover {
+.contact-lnk {
     color: #31393a;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    text-align: left;
 }
