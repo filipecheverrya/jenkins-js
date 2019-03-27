@@ -21,4 +21,4 @@ setTimeout(() => {
     footerLogo();
     headerLogo();
     footerContact();
-}, 750);
+}, 100);
