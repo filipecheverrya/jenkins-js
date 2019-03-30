@@ -2,7 +2,7 @@ import mainCss from './css/index.css'
 import logoJenkins from './img/jenkins-logo.svg'
 import logoThrive from './img/thrive-logo.svg'
 
-const footer = document.querySelector('footer .container-fluid .row');
+let footer = document.querySelector('footer .container-fluid .row');
 const footerContent =
 `
 <div class="col-md-8">

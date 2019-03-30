@@ -35,3 +35,7 @@ body#jenkins {
     height: 40px;
     display: block;
 }
+body > footer .container-fluid .col-md-18,
+body > footer .container-fluid .col-md-6 {
+    display: none;
+}
