@@ -14,8 +14,8 @@ body > footer .container-fluid .row {
 #header .logo:after {
     display: none;
 }
-#footer .jenkins-lnk,
-#footer .contact-lnk {
+footer .jenkins-lnk,
+footer .contact-lnk {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
@@ -26,11 +26,11 @@ body > footer .container-fluid .row {
 body#jenkins {
     padding-bottom: 75px;
 }
-#footer .jenkins-lnk {
+footer .jenkins-lnk {
     color: #F9A51A;
     text-transform: uppercase;
 }
-#footer .footer-logo-thrive {
+footer .footer-logo-thrive {
     width: 120px;
     height: 40px;
     display: block;
