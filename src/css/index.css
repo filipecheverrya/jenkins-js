@@ -14,8 +14,8 @@ body > footer .container-fluid .row {
 #header .logo:after {
     display: none;
 }
-#footer .jenkins-lnk,
-#footer .contact-lnk {
+.jenkins-lnk,
+.contact-lnk {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
@@ -26,7 +26,7 @@ body > footer .container-fluid .row {
 body#jenkins {
     padding-bottom: 75px;
 }
-#footer .jenkins-lnk {
+.jenkins-lnk {
     color: #F9A51A;
     text-transform: uppercase;
 }
@@ -47,3 +47,10 @@ body > footer .container-fluid .col-md-6 {
     overflow: hidden;
     background-color: #31393A;
 }
+#footer .col-md-8:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+/* #footer .col-md-8:nth-child(2) > a {
+
+} */
