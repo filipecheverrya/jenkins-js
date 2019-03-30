@@ -1,26 +1,23 @@
 import mainCss from './css/index.css'
+import logoJenkins from './img/jenkins-logo.svg'
+import logoThrive from './img/thrive-logo.svg'
 
-var footer_logo = '<a href="https://thrivedatascience.com" target="_blank" title="Thrive Data Science"><img src="https://thrivedatascience.com/images/logo.png" alt="Thrive Data Science" width="120" height="40" /></a>',
-    header_logo = '<img src="https://thrivedatascience.com/images/logo.png" alt="Thrive Data Science" width="120" height="40" />',
-    contact_info = '<a href="mailto:comercial@thrivedatascience.com" title="Thrive Data Science" class="contact-lnk">comercial@thrivedatascience.com</a>'
+const footer = document.querySelector('footer .container-fluid .row');
+const footerContent =
+`
+<div class="col-md-8">
+    <a href="https://thrivedatascience.com/" class="footer-logo-thrive" target="_blank" title="Thrive Data Science">${logoThrive}</a>
+</div>
+<div class="col-md-8">
+    <a href="mailto:support@thrivedatascience.com" class="contact-lnk" title="support@thrivedatascience.com">support@thrivedatascience.com</a>
+</div>
+<div class="col-md-8">
+    <a href="https://jenkins.thrivedatascience.com/" class="jenkins-lnk" target="_blank" title="Jenkins">JENKINS</a>
+</div>
+`;
 
-contact_info += '<a href="tel:+5553997039577" title="Thrive Data Science" class="contact-lnk">+55 53 9 9703 9577</a>'
-contact_info += '<span class="contact-lnk">Rua Santa Cruz, 2439 - Pelotas, RS</span>'
-
-function footerLogo() {
-    document.querySelector('body>footer .page_generated').innerHTML = footer_logo;
-}
-function headerLogo() {
-    var elem = document.getElementById('jenkins-home-link');
-    elem.setAttribute('href', 'https://jenkins.thrivedatascience.com/');
-    elem.innerHTML = header_logo;
-}
-function footerContact() {
-    document.getElementById('footer').innerHTML = contact_info;
-}
 
 setTimeout(() => {
-    footerLogo();
-    headerLogo();
-    footerContact();
+    footer.innerHTML = footerContent
+    
 }, 500);

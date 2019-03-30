@@ -1,11 +1,11 @@
 /* jenkins theme */
 @import 'https://cdn.rawgit.com/afonsof/jenkins-material-theme/gh-pages/dist/material-blue-grey.css';
-
+/* custom css */
 body > footer {
-    background-color: #cccccc;
+    background-color: #31393A;
 }
 #header {
-    background-color: #cccccc;
+    background-color: #31393A;
 }
 body > footer .container-fluid .row {
     display: flex;
@@ -14,9 +14,10 @@ body > footer .container-fluid .row {
 #header .logo:after {
     display: none;
 }
+#footer .jenkins-lnk,
 #footer .contact-lnk {
-    color: #31393a;
-    font-weight: 600;
+    color: #FFFFFF;
+    font-weight: 400;
     font-size: 14px;
     display: block;
     text-align: left;
@@ -24,4 +25,13 @@ body > footer .container-fluid .row {
 }
 body#jenkins {
     padding-bottom: 75px;
+}
+#footer .jenkins-lnk {
+    color: #F9A51A;
+    text-transform: uppercase;
+}
+.footer-logo-thrive {
+    width: 120px;
+    height: 40px;
+    display: block;
 }
