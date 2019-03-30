@@ -39,3 +39,11 @@ body > footer .container-fluid .col-md-18,
 body > footer .container-fluid .col-md-6 {
     display: none;
 }
+.icon-black {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #31393A;
+}

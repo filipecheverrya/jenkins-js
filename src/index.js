@@ -20,8 +20,10 @@ const footerContent =
 `
 <a href="https://jenkins.thrivedatascience.com/" class="header-jenkins-logo" title="Jenkins">${logoJenkins}</a>
 `
+
 function footerLogo() {
-    document.querySelectorAll('body>footer .container-fluid').insertBefore(footerContent);
+    var a = document.querySelectorAll('body>footer .container-fluid');
+    a.insertBefore(footerContent);
 }
 function logoHeader() {
     var elem = document.getElementById('#header .logo');
