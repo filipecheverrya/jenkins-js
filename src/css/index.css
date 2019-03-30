@@ -1,3 +1,6 @@
+/* jenkins theme */
+@import 'https://cdn.rawgit.com/afonsof/jenkins-material-theme/gh-pages/dist/material-blue-grey.css';
+
 body > footer {
     background-color: #cccccc;
 }

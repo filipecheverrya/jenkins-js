@@ -1,3 +1,5 @@
+import mainCss from './css/index.css'
+
 var footer_logo = '<a href="https://thrivedatascience.com" target="_blank" title="Thrive Data Science"><img src="https://thrivedatascience.com/images/logo.png" alt="Thrive Data Science" width="120" height="40" /></a>',
     header_logo = '<img src="https://thrivedatascience.com/images/logo.png" alt="Thrive Data Science" width="120" height="40" />',
     contact_info = '<a href="mailto:comercial@thrivedatascience.com" title="Thrive Data Science" class="contact-lnk">comercial@thrivedatascience.com</a>'
@@ -21,4 +23,4 @@ setTimeout(() => {
     footerLogo();
     headerLogo();
     footerContact();
-}, 750);
+}, 500);
