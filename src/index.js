@@ -25,7 +25,7 @@ function footerLogo() {
     document.querySelector('body>footer .container-fluid .row').insertAdjacentHTML('beforebegin', footerContent)
 }
 function logoHeader() {
-    var elem = document.getElementById('#header .logo');
+    var elem = document.querySelector('#header .logo');
     elem.innerHTML = headerLogo;
 }
 

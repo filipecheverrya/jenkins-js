@@ -47,10 +47,11 @@ body > footer .container-fluid .col-md-6 {
     overflow: hidden;
     background-color: #31393A;
 }
-#footer .col-md-8:nth-child(2) {
+footer .col-md-8:nth-child(2) {
     display: flex;
     justify-content: center;
 }
-/* #footer .col-md-8:nth-child(2) > a {
-
-} */
+footer .col-md-8:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
