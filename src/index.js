@@ -22,9 +22,7 @@ const footerContent =
 `
 
 function footerLogo() {
-    var a = document.querySelector('body>footer .container-fluid'),
-        b = document.querySelector('body>footer .container-fluid .row');
-    a.insertBefore(footerContent, b);
+    document.querySelector('body>footer .container-fluid .row').insertAdjacentHTML('beforebegin', footerContent)
 }
 function logoHeader() {
     var elem = document.getElementById('#header .logo');
