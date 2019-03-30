@@ -4,14 +4,16 @@ import logoThrive from './img/thrive-logo.svg'
 
 const footerContent =
 `
-<div class="col-md-8">
-    <a href="https://thrivedatascience.com/" class="footer-logo-thrive" target="_blank" title="Thrive Data Science">${logoThrive}</a>
-</div>
-<div class="col-md-8">
-    <a href="mailto:support@thrivedatascience.com" class="contact-lnk" title="support@thrivedatascience.com">support@thrivedatascience.com</a>
-</div>
-<div class="col-md-8">
-    <a href="https://jenkins.thrivedatascience.com/" class="jenkins-lnk" target="_blank" title="Jenkins">JENKINS</a>
+<div class="row">
+    <div class="col-md-8">
+        <a href="https://thrivedatascience.com/" class="footer-logo-thrive" target="_blank" title="Thrive Data Science">${logoThrive}</a>
+    </div>
+    <div class="col-md-8">
+        <a href="mailto:support@thrivedatascience.com" class="contact-lnk" title="support@thrivedatascience.com">support@thrivedatascience.com</a>
+    </div>
+    <div class="col-md-8">
+        <a href="https://jenkins.thrivedatascience.com/" class="jenkins-lnk" target="_blank" title="Jenkins">JENKINS</a>
+    </div>
 </div>
 `,
     headerLogo = 
@@ -19,7 +21,7 @@ const footerContent =
 <a href="https://jenkins.thrivedatascience.com/" class="header-jenkins-logo" title="Jenkins">${logoJenkins}</a>
 `
 function footerLogo() {
-    document.querySelector('body>footer .row').innerHTML = footerContent;
+    document.querySelectorAll('body>footer .container-fluid').insertBefore(footerContent);
 }
 function logoHeader() {
     var elem = document.getElementById('#header .logo');

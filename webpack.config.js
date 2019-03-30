@@ -21,7 +21,11 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             },
             {
-                test: /\.(png|jpg|svg)$/,
+                test: /\.svg$/,
+                use: ['svg-inline-loader']
+            },
+            {
+                test: /\.(png|jpg)$/,
                 loader: ['url-loader', 'file-loader']
             }
         ]
