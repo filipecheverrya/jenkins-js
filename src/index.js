@@ -21,8 +21,11 @@ const footerContent =
 <a href="https://jenkins.thrivedatascience.com/" class="header-jenkins-logo" title="Jenkins">${logoJenkins}</a>
 `
 
-
-setTimeout(() => {
+const injectHTML = () => {
     footer.innerHTML = footerContent
     header.innerHTML = headerLogo
+}
+
+setTimeout(() => {
+    injectHTML();
 }, 500);
