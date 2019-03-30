@@ -2,8 +2,6 @@ import mainCss from './css/index.css'
 import logoJenkins from './img/jenkins-logo.svg'
 import logoThrive from './img/thrive-logo.svg'
 
-let footer = document.querySelector('body>footer .container-fluid .row'),
-    header = document.querySelector('#header .logo');
 const footerContent =
 `
 <div class="col-md-8">
@@ -20,12 +18,15 @@ const footerContent =
 `
 <a href="https://jenkins.thrivedatascience.com/" class="header-jenkins-logo" title="Jenkins">${logoJenkins}</a>
 `
-
-const injectHTML = () => {
-    footer.innerHTML = footerContent
-    header.innerHTML = headerLogo
+function footerLogo() {
+    document.querySelector('body>footer .row').innerHTML = footerContent;
+}
+function logoHeader() {
+    var elem = document.getElementById('#header .logo');
+    elem.innerHTML = headerLogo;
 }
 
 setTimeout(() => {
-    injectHTML();
-}, 500);
+    footerLogo();
+    logoHeader();
+}, 750);
