@@ -12,7 +12,7 @@ const footerContent =
         <a href="mailto:support@thrivedatascience.com" class="jenkins-lnk" title="support@thrivedatascience.com">support@thrivedatascience.com</a>
     </div>
 </div>
-`,
+`
 
 function footerLogo() {
     document.querySelector('body>footer .container-fluid .row').insertAdjacentHTML('beforebegin', footerContent)
@@ -21,8 +21,3 @@ function logoHeader() {
     var elem = document.querySelector('#header .logo > a');
     elem.setAttribute('href', 'https://jenkins.thrivedatascience.com/').classList.add('header-jenkins-logo')
 }
-
-setTimeout(() => {
-    footerLogo();
-    logoHeader();
-}, 750);
