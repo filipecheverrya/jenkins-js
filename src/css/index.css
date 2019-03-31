@@ -125,3 +125,11 @@ table.sortable a.sortheader:hover {
     opacity: 1;
     color: #F9A51A;
 }
+.task-icon-link {
+    background-color: #31393A;
+}
+.tabBar .tab a:hover,
+.tabBar .tab a {
+    border-color: #F9A51A;
+    color: #F9A51A;
+}
