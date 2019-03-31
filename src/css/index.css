@@ -47,13 +47,10 @@ body > footer .container-fluid .col-md-6 {
     overflow: hidden;
     background-color: #31393A;
 }
-footer .col-md-8:nth-child(2) {
+footer .col-md-16:last-child {
+    flex-direction: column;
     display: flex;
-    justify-content: center;
-}
-footer .col-md-8:last-child {
-    display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 .header-jenkins-logo {
     width: 150px;
