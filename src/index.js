@@ -19,7 +19,8 @@ function footerLogo() {
 }
 function logoHeader() {
     var elem = document.querySelector('#header .logo > a');
-    elem.setAttribute('href', 'https://jenkins.thrivedatascience.com/').classList.add('header-jenkins-logo')
+    elem.setAttribute('href', 'https://jenkins.thrivedatascience.com/')
+    elem.classList.add('header-jenkins-logo')
 }
 
 document.addEventListener('DOMContentLoaded', () => {
