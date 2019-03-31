@@ -68,6 +68,7 @@ footer .col-md-8:last-child {
 }
 #projectstatus th > a:hover {
     color: #F9A51A;
+    opacity: 1;
 }
 #projectstatus th {
     background-color: #31393A;
@@ -104,7 +105,9 @@ footer .col-md-8:last-child {
 }
 #side-panel .pane-header a:hover {
     color: #F9A51A;
+    opacity: 1;
 }
+#main-panel .pane-frame:hover,
 #main-panel .pane-frame {
     border-color: #31393A;
 }
