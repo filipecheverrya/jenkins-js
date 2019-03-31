@@ -147,6 +147,8 @@ table.sortable a.sortheader:hover {
     background-color: #FFFFFF;
     color: #F9A51A;
 }
+#jenkins .yui-button .hetero-list-add,
+#jenkins .yui-button.danger button,
 #jenkins .yui-button.danger button:hover, 
 #jenkins .yui-button.danger .hover {
     border-radius: 8px !important;
