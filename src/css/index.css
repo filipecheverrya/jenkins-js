@@ -111,3 +111,6 @@ footer .col-md-8:last-child {
 #main-panel .pane-frame {
     border-color: #31393A;
 }
+#side-panel .pane-frame:hover {
+    border-color: #31393A;
+}
