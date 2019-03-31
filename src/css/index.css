@@ -63,7 +63,17 @@ footer .col-md-8:last-child {
 .header-jenkins-logo svg {
     overflow: visible;
 }
+#projectstatus th > a {
+    color: #ffffff;
+}
 #projectstatus th {
     background-color: #31393A;
+}
+.tabBar [type=radio]:checked ~ a {
+    background-color: #31393A;
     color: #ffffff;
+}
+.tabBar .tab a.addTab {
+    border-color: #F9A51A;
+    color: #F9A51A;
 }
