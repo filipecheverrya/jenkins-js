@@ -75,6 +75,7 @@ footer .col-md-8:last-child {
 }
 .tabBar [type=radio]:checked ~ a:hover {
     opacity: 1;
+    border-color: #31393A;
     color: #F9A51A;
 }
 .tabBar [type=radio]:checked ~ a {
@@ -125,11 +126,18 @@ table.sortable a.sortheader:hover {
     opacity: 1;
     color: #F9A51A;
 }
-.task-icon-link {
+.task-icon-link[href="/"] {
     background-color: #31393A;
 }
 .tabBar .tab a:hover,
 .tabBar .tab a {
     border-color: #F9A51A;
     color: #F9A51A;
+    background-color: #fff;
+}
+#jenkins .yui-button.primary .btn, 
+#jenkins .yui-button.primary button {
+    color: #fff;
+    background-color: #F9A51A;
+    border-color: #F9A51A;
 }
