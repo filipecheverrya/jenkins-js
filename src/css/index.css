@@ -56,9 +56,14 @@ footer .col-md-8:last-child {
     justify-content: flex-end;
 }
 .header-jenkins-logo {
-    width: 120px;
+    width: 150px;
     height: 40px;
+    display: block;
 }
 .header-jenkins-logo svg {
     overflow: visible;
+}
+#projectstatus th {
+    background-color: #31393A;
+    color: #ffffff;
 }
