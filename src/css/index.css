@@ -89,10 +89,11 @@ footer .col-md-8:last-child {
 .pane-header {
     background-color: #31393A;
 }
+#side-panel .pane-header,
 #side-panel .pane-frame {
     border-color: #31393A;
+    color: #ffffff;
 }
 .pane-header .collapse {
     color: #ffffff;
 }
-#side-panel .pane-frame
