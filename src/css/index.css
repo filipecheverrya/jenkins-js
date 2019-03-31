@@ -94,6 +94,10 @@ footer .col-md-8:last-child {
     border-color: #31393A;
     color: #ffffff;
 }
+#side-panel .pane-header a,
 .pane-header .collapse {
     color: #ffffff;
+}
+#main-panel .pane-frame {
+    border-color: #31393A;
 }
