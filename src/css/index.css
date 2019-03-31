@@ -114,3 +114,9 @@ footer .col-md-8:last-child {
 #side-panel .pane-frame:hover {
     border-color: #31393A;
 }
+.bigtable th {
+    background-color: #31393A;
+}
+table.sortable span.sortarrow {
+    color: #ffffff;
+}
