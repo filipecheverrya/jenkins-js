@@ -117,6 +117,11 @@ footer .col-md-8:last-child {
 .bigtable th {
     background-color: #31393A;
 }
+table.sortable a.sortheader,
 table.sortable span.sortarrow {
     color: #ffffff;
+}
+table.sortable a.sortheader:hover {
+    opacity: 1;
+    color: #F9A51A;
 }
