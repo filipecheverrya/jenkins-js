@@ -53,7 +53,7 @@ footer .col-md-16:last-child {
 }
 .header-jenkins-logo {
     width: 150px;
-    height: 48px;
+    height: 48px !important;
     display: block;
     background: url('https://jenkins.thrivedatascience.com/userContent/logo.svg') 0 0 no-repeat;
     background-size: contain;
@@ -162,5 +162,5 @@ table.sortable a.sortheader:hover {
     color: #F9A51A;
 }
 #visible-am-container {
-    display: none;
+    display: none !important;
 }
