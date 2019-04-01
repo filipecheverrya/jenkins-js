@@ -55,9 +55,12 @@ footer .col-md-16:last-child {
     width: 150px;
     height: 40px;
     display: block;
-    background: url('../img/jenkins-logo.svg') 0 0 no-repeat;
+    background: url('https://jenkins.thrivedatascience.com/userContent/logo.svg') 0 0 no-repeat;
     background-size: contain;
-    
+
+}
+.header-jenkins-logo img[alt="[Jenkins]"] {
+    display: none;
 }
 #projectstatus th > a {
     color: #ffffff;
