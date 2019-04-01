@@ -161,3 +161,6 @@ table.sortable a.sortheader:hover {
 #people a {
     color: #F9A51A;
 }
+#visible-am-container {
+    display: none;
+}
