@@ -59,7 +59,7 @@ footer .col-md-16:last-child {
     background-size: contain;
 
 }
-.header-jenkins-logo img[alt="[Jenkins]"] {
+.header-jenkins-logo img {
     display: none;
 }
 #projectstatus th > a {
